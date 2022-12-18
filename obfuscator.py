@@ -2,9 +2,8 @@
 
 
 #	Python Code Obfuscator
-#	by Brandon Asuncion
+#	by trhacknon
 #	
-#	Questions/Comments?	me@brandonasuncion.tech
 
 
 import string
@@ -319,7 +318,7 @@ class MyArgParser(argparse.ArgumentParser):
 		sys.exit(2)
 
 def main():
-	parser = MyArgParser(description='Python Code Obfuscator by Brandon Asuncion (me@brandonasuncion.tech)')
+	parser = MyArgParser(description='Python Code Obfuscator by trhacknon(anonymous red hat hacker)')
 	parser.add_argument('inputfile', help="Name of the input file")
 	parser.add_argument('outputfile', help="Name of the output file")
 	parser.add_argument('--debug', help="Show debug info", action="store_true")
